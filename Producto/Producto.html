@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tienda de Productos</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h2>Tienda de Productos</h2>
+    <div class="producto">
+        <h3>Producto 1 - $10.00</h3>
+        <label for="cantidadProducto1">Cantidad:</label>
+        <input type="number" id="cantidadProducto1" min="0">
+    </div>
+    <div class="producto">
+        <h3>Producto 2 - $15.00</h3>
+        <label for="cantidadProducto2">Cantidad:</label>
+        <input type="number" id="cantidadProducto2" min="0">
+    </div>
+    <div class="producto">
+        <h3>Producto 3 - $20.00</h3>
+        <label for="cantidadProducto3">Cantidad:</label>
+        <input type="number" id="cantidadProducto3" min="0">
+    </div>
+    <div class="total">
+        <button onclick="calcularTotal()">Calcular Total</button>
+        <p id="precioTotal"></p>
+        <p id="ivaTotal"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.producto {
+    margin-bottom: 10px;
+}
+
+.producto h3 {
+    margin: 5px 0;
+}
+
+.producto input[type="number"] {
+    width: 60px;
+    padding: 5px;
+}
+
+.total {
+    text-align: center;
+}
+
+.total button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.total button:hover {
+    background-color: #0056b3;
+}
